@@ -1,0 +1,244 @@
+body {
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    background-color:black ;
+    margin: 0;
+    padding: 0;
+    height: 120px; 
+    border-radius: 20px;
+
+}
+
+.logo{
+    display: flex;
+    height: 110px;
+    width: 250px;
+}
+
+.navbar{
+    display: flex;
+    width: 545px;
+    height:120px ;
+}
+
+.listaHeader{
+    padding: 0px;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.listaHeader nav ul {
+    list-style-type:none;
+
+}
+
+.listaHeader nav ul li{
+    display: inline;
+    justify-content:space-between;
+    align-content:flex-start ;
+    width: 100%;
+
+}
+
+.listaHeader nav ul li a{
+    padding: 0 10px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(0, 0, 0);
+}
+
+.listaHeader nav ul li a:hover{
+    color: rgb(255, 251, 0);
+}
+
+.fondoLila {
+    background-color: blueviolet;
+
+}
+.fondoCeleste {
+    background-color: aqua;
+
+}
+
+.fondoCeleste ul li{
+    display: inline-block;
+    width: 20%;
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font-size: 30px;
+    padding: 0px 50px 0px 0px;
+    align-items: center;
+
+}
+
+.fondoCeleste h3{
+    background-color: grey;
+    text-align: center;
+    font-size: 45px;
+}
+
+.fondoRosa{
+    background-color: coral;
+}
+
+.contenedor{
+    display: flex;
+}
+.fondoVerde {
+
+    background-color: rgb(255, 94, 0);
+    height: 500px;
+    width: 20%;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+.fondoVerde h2{
+    background-color: grey;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.fondoVerde ul li{
+    list-style-type:none;
+
+}
+
+.fondoVerde ul li a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+
+}
+
+.fondoVerde ul li a:hover{
+    color: blueviolet;
+}
+
+
+#lasNoches{
+
+    color: aliceblue;
+    background-image: url(../IMAGENES/imagenes/portada.jpg);
+    height: 500px;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#lasNoches h2{
+    padding-left: 620px;
+    padding-top: 420px; 
+    color: rgb(255, 255, 255);
+    
+    font-size: 40px;
+
+}
+.contenedorSecundario{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#lab{
+
+    background-image: url(../IMAGENES/imagenes/lab.jpg);
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#lab h2{
+    font-size: 25;
+    color: aliceblue;
+    padding-left: 250px;
+    padding-top: 350px;
+}
+
+#mediodias{
+    background-image: url(../IMAGENES/imagenes/Wrap\ vegetarianook.png);
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    
+}
+
+#mediodias h2{
+    font-size: 25px;
+    color: aliceblue;
+    padding-left: 250px;
+    padding-top: 350px;
+    
+}
+
+.otraData{
+
+
+    background-color: rgb(140, 207, 140);
+    height: 400px;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.otraData h2{
+    background-color: grey;
+    text-align: center;
+    font-size: 45px;
+}
+
+.otraData ul li{
+    list-style-type: none;
+    
+}
+
+.otraData ul li a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+
+}
+
+.otraData .redes ul li a{
+    display: inline-block;
+
+}
+.calendario{
+    border-radius: 20px;
+    width: 98%;
+    height: 50px;
+    color: rgb(94, 15, 150);
+    background-color: rgb(226, 116, 43);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+footer ul li{
+    display: inline;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 50%;
+}
+
+footer i{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: black;
+    
+
+}
